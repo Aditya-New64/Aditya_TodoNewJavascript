@@ -1,0 +1,59 @@
+@import url(https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@100;200;300;400;500;600;800&display=swap);
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: rgb(132, 0, 255);
+}
+
+.container{
+    background-color: white;
+    margin: 12vh 35vw;
+    width: 30vw;
+    height: 70vh;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    /* text-align: center; */
+}
+.container h1{
+    /* font-family: 'Baloo Bhaina 2', display; */
+    text-align: center;
+    font-size: 40px;
+}
+.container input{
+    margin-top: 20px;
+    font-size: 18px;
+    width: 360px;
+    padding:5px 5px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(132, 0, 255);
+    color: white;
+}
+.addTodo a{
+    position: absolute;
+    top: 161px;
+    left: 835px;
+    background-color: white;
+    padding-right: 3px;
+    padding-left: 3px;
+    padding-top: 2px;
+    border-radius: 2px;
+    padding-bottom: 1px;
+}
+
+#btnAdd{
+    cursor: pointer;
+}
+.container ul{
+    margin-top: 20px;
+}
